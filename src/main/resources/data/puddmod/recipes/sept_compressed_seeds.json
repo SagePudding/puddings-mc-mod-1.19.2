@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "puddmod:sex_compressed_seeds"
+    }
+  },
+  "result": {
+    "item": "puddmod:sept_compressed_seeds"
+  }
+}

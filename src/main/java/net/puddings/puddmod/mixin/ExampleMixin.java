@@ -1,6 +1,6 @@
-package net.puddings.tutorialmod.mixin;
+package net.puddings.puddmod.mixin;
 
-import net.puddings.tutorialmod.TutorialMod;
+import net.puddings.puddmod.PuddMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		TutorialMod.LOGGER.info("This line is printed by an example mod mixin!");
+		PuddMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

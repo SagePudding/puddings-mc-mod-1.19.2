@@ -1,8 +1,8 @@
-package net.puddings.tutorialmod;
+package net.puddings.puddmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class PuddModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

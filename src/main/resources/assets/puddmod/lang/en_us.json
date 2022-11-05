@@ -1,0 +1,11 @@
+{
+  "item.puddmod.compressed_seeds": "Compressed Seeds",
+  "item.puddmod.double_compressed_seeds": "Double Compressed Seeds",
+  "item.puddmod.triple_compressed_seeds": "Triple Compressed Seeds",
+  "item.puddmod.quad_compressed_seeds": "Quadruple Compressed Seeds",
+  "item.puddmod.quint_compressed_seeds": "Quintuple Compressed Seeds",
+  "item.puddmod.sex_compressed_seeds": "Sextuple Compressed Seeds",
+  "item.puddmod.sept_compressed_seeds":" Septuple Compressed Seeds",
+  "item.puddmod.octuple_compressed_seeds": "Octuple Compressed Seeds",
+  "itemGroup.puddmod.seeds": "Compressed Seeds"
+}

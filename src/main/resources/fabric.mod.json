@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "puddmod",
   "version": "${version}",
 
   "name": "Puddings Epic Mod",
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.puddings.tutorialmod.TutorialMod"
+      "net.puddings.puddmod.PuddMod"
     ],
     "client": [
-      "net.puddings.tutorialmod.TutorialModClient"
+      "net.puddings.puddmod.PuddModClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "puddmod.mixins.json"
   ],
 
   "depends": {
