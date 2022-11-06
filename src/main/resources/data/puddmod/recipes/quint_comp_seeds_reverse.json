@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "puddmod:quint_compressed_seeds"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "puddmod:quad_compressed_seeds"
+  }
+}

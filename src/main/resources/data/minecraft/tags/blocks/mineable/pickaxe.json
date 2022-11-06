@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "puddmod:compressed_cobblestone",
+    "puddmod:double_compressed_cobblestone",
+    "puddmod:triple_compressed_cobblestone",
+    "puddmod:quad_compressed_cobblestone",
+    "puddmod:quint_compressed_cobblestone",
+    "puddmod:sex_compressed_cobblestone",
+    "puddmod:sept_compressed_cobblestone",
+    "puddmod:octuple_compressed_cobblestone"
+  ]
+}

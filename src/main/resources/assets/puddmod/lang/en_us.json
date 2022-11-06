@@ -7,5 +7,13 @@
   "item.puddmod.sex_compressed_seeds": "Sextuple Compressed Seeds",
   "item.puddmod.sept_compressed_seeds":" Septuple Compressed Seeds",
   "item.puddmod.octuple_compressed_seeds": "Octuple Compressed Seeds",
-  "itemGroup.puddmod.seeds": "Compressed Seeds"
+  "itemGroup.puddmod.compressed": "Compressed Items",
+  "block.puddmod.compressed_cobblestone": "Compressed Cobblestone",
+  "block.puddmod.double_compressed_cobblestone": "Double Compressed Cobblestone",
+  "block.puddmod.triple_compressed_cobblestone": "Triple Compressed Cobblestone",
+  "block.puddmod.quad_compressed_cobblestone": "Quadruple Compressed Cobblestone",
+  "block.puddmod.quint_compressed_cobblestone": "Quintuple Compressed Cobblestone",
+  "block.puddmod.sex_compressed_cobblestone": "Sextuple Compressed Cobblestone",
+  "block.puddmod.sept_compressed_cobblestone": "Septuple Compressed Cobblestone",
+  "block.puddmod.octuple_compressed_cobblestone": "Octuple Compressed Cobblestone"
 }

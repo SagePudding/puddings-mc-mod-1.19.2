@@ -10,28 +10,28 @@ import net.puddings.puddmod.PuddMod;
 public class ModItems {
 
     public static final Item COMPRESSED_SEEDS = registerItem("compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item DOUBLE_COMPRESSED_SEEDS = registerItem("double_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item TRIPLE_COMPRESSED_SEEDS = registerItem("triple_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item QUAD_COMPRESSED_SEEDS = registerItem("quad_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item QUINT_COMPRESSED_SEEDS = registerItem("quint_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item SEX_COMPRESSED_SEEDS = registerItem("sex_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item SEPT_COMPRESSED_SEEDS = registerItem("sept_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     public static final Item OCTUPLE_COMPRESSED_SEEDS = registerItem("octuple_compressed_seeds",
-            new Item(new FabricItemSettings().group(ModItemGroup.SEEDS)));
+            new Item(new FabricItemSettings().group(ModItemGroup.COMPRESSED)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(PuddMod.MOD_ID, name), item);

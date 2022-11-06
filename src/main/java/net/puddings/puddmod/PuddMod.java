@@ -1,6 +1,7 @@
 package net.puddings.puddmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.puddings.puddmod.block.ModBlocks;
 import net.puddings.puddmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class PuddMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

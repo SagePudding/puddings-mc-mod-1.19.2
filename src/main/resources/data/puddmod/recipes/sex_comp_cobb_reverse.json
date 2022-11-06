@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "puddmod:sex_compressed_cobblestone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "puddmod:quint_compressed_cobblestone"
+  }
+}

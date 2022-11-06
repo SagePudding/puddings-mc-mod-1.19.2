@@ -7,5 +7,6 @@ import net.minecraft.util.Identifier;
 import net.puddings.puddmod.PuddMod;
 
 public class ModItemGroup {
-    public static final ItemGroup SEEDS = FabricItemGroupBuilder.build(new Identifier(PuddMod.MOD_ID, "seeds"), () -> new ItemStack(ModItems.COMPRESSED_SEEDS));
+    public static final ItemGroup COMPRESSED = FabricItemGroupBuilder.build(new Identifier(PuddMod.MOD_ID,
+            "compressed"), () -> new ItemStack(ModItems.COMPRESSED_SEEDS));
 }

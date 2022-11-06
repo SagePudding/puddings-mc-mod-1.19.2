@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "puddmod:quad_compressed_cobblestone"
+    }
+  },
+  "result": {
+    "item": "puddmod:quint_compressed_cobblestone"
+  }
+}
