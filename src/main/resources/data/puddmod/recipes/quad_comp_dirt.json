@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "puddmod:triple_compressed_dirt"
+    }
+  },
+  "result": {
+    "item": "puddmod:quad_compressed_dirt"
+  }
+}

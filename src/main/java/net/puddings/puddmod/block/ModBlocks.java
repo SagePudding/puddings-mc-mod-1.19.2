@@ -37,6 +37,38 @@ public class ModBlocks {
     public static final Block OCTUPLE_COMPRESSED_COBBLESTONE = registerBlock("octuple_compressed_cobblestone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.COMPRESSED);
 
+    public static final Block COMPRESSED_DIRT = registerBlock("compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block DOUBLE_COMPRESSED_DIRT = registerBlock("double_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block TRIPLE_COMPRESSED_DIRT = registerBlock("triple_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block QUAD_COMPRESSED_DIRT = registerBlock("quad_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block QUINT_COMPRESSED_DIRT = registerBlock("quint_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block SEX_COMPRESSED_DIRT = registerBlock("sex_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block SEPT_COMPRESSED_DIRT = registerBlock("sept_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
+    public static final Block OCT_COMPRESSED_DIRT = registerBlock("oct_compressed_dirt",
+            new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).requiresTool()),
+            ModItemGroup.COMPRESSED);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(PuddMod.MOD_ID, name), block);

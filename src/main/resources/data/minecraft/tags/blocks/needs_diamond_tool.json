@@ -8,6 +8,14 @@
     "puddmod:quint_compressed_cobblestone",
     "puddmod:sex_compressed_cobblestone",
     "puddmod:sept_compressed_cobblestone",
-    "puddmod:octuple_compressed_cobblestone"
+    "puddmod:octuple_compressed_cobblestone",
+    "puddmod:compressed_dirt",
+    "puddmod:double_compressed_dirt",
+    "puddmod:triple_compressed_dirt",
+    "puddmod:quad_compressed_dirt",
+    "puddmod:quint_compressed_dirt",
+    "puddmod:sex_compressed_dirt",
+    "puddmod:sept_compressed_dirt",
+    "puddmod:oct_compressed_dirt"
   ]
 }
